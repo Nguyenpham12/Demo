@@ -1,0 +1,227 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#iconpage{
+  width: 212px;
+}
+
+.lls{
+  margin: auto;
+  width: 70%;
+  display: grid;
+  
+}
+.navbar-brand{
+  display: flex;
+  gap: 20px;
+}
+
+.text-page{
+  text-align: left;
+  position: relative;
+  top: 12px;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.me-2{
+  border-radius: 10rem;
+}
+
+
+
+.nothing{
+  background-color: rgb(179, 18, 18);
+  height: 6px;
+}
+
+#basic-nav-dropdown{
+  color: white;
+  border-style:groove;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  background: #3a3939;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 30px;
+  text-align: left;
+}
+ul li a{
+  display: block;
+  padding: 8px 25px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;  
+}
+ul li a:hover{
+  color: #fff;
+  background: #008cff;
+  min-width: auto;
+}
+ul li ul.dropdown{
+  min-width: 120%; /* Set width of the dropdown */
+  background: #474747;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+ul li:hover ul.dropdown{
+  display: block;	/* Display the dropdown */
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100vh; 
+  width: auto; 
+  position: relative; 
+  
+  
+  background-color: rgb(255, 255, 255); /* Black */
+
+  
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav Link {font-size: 18px;}
+}
+
+#img_top_news{
+   
+  width: 940px;
+  height: 381px;
+  
+  padding-top: 4rem;
+    
+}
+.container{
+  display: flex;
+  justify-content: flex;
+  gap: 10%;
+  
+}
+
+#news_contents{
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+#img_1{
+  width: 322px;
+  height: 180px;
+}
+
+.carousel-inner{  
+  height: 370px; 
+}
+#newfeed{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card-img-top{
+  height: 142px;
+  width: 285px;
+}
+.underline{
+  margin-top:0px;
+  margin-bottom:0px;
+  max-width:100%;
+  background-color:rgb(190, 15, 15);  
+}
+#gachsukien{
+  height: 38px;
+  color: white;
+  background-color:rgb(190, 15, 15);   
+  
+}
+#sukien{
+  color: white;
+}
+#bg{
+  
+  height: 434px;
+  background-image: url(https://soict.hust.edu.vn/wp-content/uploads/2019/05/banner.jpg);
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-position: center;
+}
+#left{
+  text-align: left;
+  font-size: 17px;
+}
+#lefttext{
+  text-align: left;
+  font-size: 14px;
+}
+.flexoday{
+  display: flex;
+  gap: 30px;
+}
+#bg2{
+  height: 541px;
+  background-image: url(https://soict.hust.edu.vn/wp-content/uploads/2019/05/43169843_1207991702683283_7469726534731825152_o.jpg);
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-position: center;
+}
+
+.flexoday1{
+  display: flex;
+  gap: 30px;
+}
+#bg3{
+  background-color: rgb(255, 242, 226);
+}
+#flex{
+  display: flex;
+}
+#bg4{
+  height: 300px;
+  background-color: rgba(44, 44, 44, 0.781);
+}
+
+
